@@ -22,6 +22,10 @@ A full-stack web application that detects fraudulent financial transactions in r
 * Pandas & NumPy
 * Joblib (Model Serialization)
 
+
+## Dataset link
+
+https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download
 ---
 
 ## Project Structure

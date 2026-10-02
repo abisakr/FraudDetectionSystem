@@ -8,6 +8,10 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.impute import SimpleImputer
 import joblib
+
+# Dataset link
+# https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download
+
 creditcard_dataset = pd.read_csv('/content/AIML Dataset.csv')
 new_data=creditcard_dataset.drop(['step','nameOrig','nameDest','isFlaggedFraud'], axis=1)
 # creditcard_dataset.info()
